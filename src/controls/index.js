@@ -9,6 +9,7 @@ import link from './Link';
 import embedded from './Embedded';
 import emoji from './Emoji';
 import image from './Image';
+import fileUpload from './FileUpload'
 import remove from './Remove';
 import history from './History';
 
@@ -24,6 +25,7 @@ module.exports = {
   embedded,
   emoji,
   image,
+  fileUpload,
   remove,
   history,
 };

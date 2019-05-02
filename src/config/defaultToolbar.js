@@ -17,6 +17,7 @@ import eraser from '../../images/eraser.svg';
 import link from '../../images/link.svg';
 import unlink from '../../images/unlink.svg';
 import emoji from '../../images/emoji.svg';
+import fileUpload from '../../images/fileUpload.svg'
 import embedded from '../../images/embedded.svg';
 import image from '../../images/image.svg';
 import undo from '../../images/undo.svg';
@@ -41,6 +42,7 @@ export default {
     "embedded",
     "emoji",
     "image",
+    "fileUpload",
     "remove",
     "history"
   ],
@@ -363,6 +365,20 @@ export default {
       height: "auto",
       width: "auto"
     },
+    title: undefined
+  },
+  fileUpload: {
+    icon: fileUpload,
+    className: undefined,
+    component: undefined,
+    popupClassName: undefined,
+    urlEnabled: false,
+    uploadEnabled: true,
+    previewFileUpload: true,
+    alignmentEnabled: true,
+    uploadCallback: function() {},
+    inputAccept: undefined,
+    alt: { present: false, mandatory: false },
     title: undefined
   },
   remove: {
