@@ -8,6 +8,10 @@ A Wysiwyg editor built using ReactJS and DraftJS libraries.
 ![](http://i.imgur.com/tU7kJ6i.gif)
 
 ## Features
+### Updates 
+- Support file upload
+
+### Origin
 - Configurable toolbar with option to add/remove controls.
 - Option to change the order of the controls in the toolbar.
 - Option to add custom controls to the toolbar.
