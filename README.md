@@ -41,10 +41,10 @@ A Wysiwyg editor built using ReactJS and DraftJS libraries.
 - Support for internationalization.
 
 ## Installing
-The package can be installed from npm `react-draft-wysiwyg`
+The package can be installed from npm `react-waynechu-wysiwyg`
 
 ```
-$ npm install --save react-draft-wysiwyg draft-js
+$ npm i react-waynechu-wysiwyg draft-js
 ```
 
 ## Getting started
