@@ -106,9 +106,9 @@ class FileUploadControl extends Component {
   render(): Object {
     const { config, translations } = this.props;
     const { expanded } = this.state;
-    const ImageComponent = config.component || LayoutComponent;
+    const FileComponent = config.component || LayoutComponent;
     return (
-      <ImageComponent
+      <FileComponent
         config={config}
         translations={translations}
         onChangeLink={this.addLink}
