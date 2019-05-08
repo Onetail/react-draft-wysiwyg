@@ -122,14 +122,13 @@ class LayoutComponent extends Component {
   uploadFileUpload: Function = (file: Object): void => {
     this.toggleShowFileUploadLoading();
     const { uploadCallback } = this.props.config;
-
     uploadCallback(file)
       .then(({ data }) => {
         this.setState({
           showFileUploadLoading: false,
           dragEnter: false,
-          fileSrc: data.link || data.url,
-          fileName: data.name
+          fileSrc: "https://static.newmobilelife.com/wp-content/uploads/2017/11/documents1.jpg",
+          fileName: file.name
         });
         this.fileUpload = false;
       })
@@ -228,6 +227,7 @@ class LayoutComponent extends Component {
                   <a
                     style={{ width: "100%", wordBreak: "break-all" }}
                     href={fileSrc}
+                    download={fileName}
                   >
                     {fileName}
                   </a>
