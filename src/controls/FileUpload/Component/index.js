@@ -127,7 +127,7 @@ class LayoutComponent extends Component {
         this.setState({
           showFileUploadLoading: false,
           dragEnter: false,
-          fileSrc: "https://static.newmobilelife.com/wp-content/uploads/2017/11/documents1.jpg",
+          fileSrc: data.link || data.url,
           fileName: file.name
         });
         this.fileUpload = false;
