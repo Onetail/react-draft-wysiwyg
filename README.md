@@ -51,7 +51,7 @@ $ npm i react-waynechu-wysiwyg draft-js
 Editor can be used as simple React Component:
 ```js
 import { Editor } from 'react-waynechu-wysiwyg';
-import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+import 'react-waynechu-wysiwyg/dist/react-draft-wysiwyg.css';
 <Editor
   editorState={editorState}
   toolbarClassName="toolbarClassName"
